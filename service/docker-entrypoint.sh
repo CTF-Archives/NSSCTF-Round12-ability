@@ -25,7 +25,7 @@ chmod 720 /home/$user/flag
 
 # chmod 777 /usr/bin/*
 
-setcap 'CAP_DAC_OVERRIDE+ep' /usr/bin/fping
+setcap 'CAP_DAC_OVERRIDE+ep' /usr/bin/dig
 
 /etc/init.d/ssh start
 rm -f /docker-entrypoint.sh
